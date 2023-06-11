@@ -1,0 +1,99 @@
+<!--DOCTYPE-->
+<html>
+    <head>
+        <meta name="viewport" content="width=device-width,
+                                       initial-scale=1">
+        <h1 style="text-align: center; background-color: none; position: sticky"><b>CONTACT US</b></h1>
+        
+        <style>
+            body{
+                background-color: none;
+                font-family: arial;
+                background-image: url('—Pngtree—3d illustration mock up scene_1247627.jpg');
+                background-size: cover;
+                background-repeat: no-repeat;
+                background-attachment: fixed;
+            }
+            
+            .container{
+                background-color: rgba(0, 0, 0, 0.3);
+                width: 50%;
+                margin: 0 auto;
+                margin-top: 50px;
+                padding: 20px
+                
+            }
+            
+            input[type=text], input[type=password], input[type=email]{
+                background-color: rgba(0, 0, 0, 0.3);
+                padding: 15px;
+                width: 95%;
+                margin: 15px 0 25px 0;
+                border: 1px solid #bbb;
+                border-radius: 10px
+            }
+            
+            .button{
+                background-color: green;
+                color: white;
+                padding: 15px;
+                width: 20%;
+                margin: 0 auto;
+    
+            }
+            
+            hr{
+                margin-bottom: 20px
+            }
+        
+        
+        </style>
+    
+    </head>
+    
+    <body>
+        
+        <div class="container">
+            <h1>REGISTER</h1>
+            <hr>
+            
+            <form action="/web_form.php">
+                <label for="name"><b>Name</b></label>
+                <input type="text" placeholder="Name" Id="name" Required>
+                
+                <label for="email"><b>Email</b></label>
+                <input type="email" placeholder="Email address" Id="email" Required>
+                <br><br>
+                
+                <label for="gender"><b>Gender</b></label><br><br>
+                
+                <input type="radio" name="gender" Id="male" Required>
+                <label for="male"><b>male</b></label><br><br>
+                
+                <input type="radio" name="gender" Id="female" Required>
+                <label for="female"><b>Female</b></label><br><br>
+                
+                
+                <label for="username"><b>Username</b></label>
+                <input type="text" placeholder="username" Id="username" Required><br><br>
+                
+                <label for="pass"><b>password</b></label>
+                <input type="password" placeholder="enter password" Id="pass" Required><br><br>
+                
+                <label for="re_pass"><b> Comfirm password</b></label>
+                <input type="password" placeholder="re-enter password" Id="re_pass" Required><br><br>
+                
+                <button type="submit" class="button">Register</button>
+            
+            </form>
+        
+        
+        
+        
+        
+        </div>
+    
+    
+    </body>
+
+</html>
