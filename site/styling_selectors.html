@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Styling selectors</title>
+	<meta charset="utf-8">
+	<style type="text/css">
+		#mainhead{
+			text-align: center;
+			color: purple;
+			font-weight: bold;
+		}
+
+		.class1{
+			color: green;
+			font-size: 30px;
+			opacity: .6;
+		}
+
+		.class2{
+			color: yellow;
+			background-color: transparent;
+			font-size: 60px;
+		}
+
+		#inlist, h2{
+			color: blue;
+			background-color: pink;
+			opacity: .8;
+			font-style: italic;
+		}
+
+	</style>
+	<!--
+		OTHERS...............
+		<style>
+			p.big{
+				Any p tag that has class="big"
+				It is used when you have a class tag applied to many tags but you want the styling of the one of such tags to be slightly different
+			}
+
+			article > p{ selector > tag
+				Used to indicate every p that is a direct child of article
+			}
+
+			article p{i.e selector selector
+				every p element that is a descendant of an article
+			}
+
+			.organ > p{
+	
+			}
+
+			article > .colored{
+	
+			}
+
+
+
+
+		</style>
+
+
+
+		-->
+</head>
+<body>
+	<h1 id="mainhead">SOME SHOPPING LIST ELEMETNS</h1>
+	<h2>USING ID SELECTORS</h2>
+	<div class="class1">
+		<ul>
+			<!--Text not allowed here-->
+			<li>Mangoes</li>
+			<li>Oranges</li>
+			<li>Vegetables
+				<ul>
+					<li>Onions</li>
+					<li>Pepper</li>
+					<li>Carrot</li>
+				</ul>
+			</li>
+			<li>Avogadros</li>
+			<li>Guavo</li>
+		</ul>
+	</div>
+
+	<h2>USING NAME SELECTORS</h2>
+	<div class="class2">
+		<ol>
+			<li>Get to the first get</li>
+			<li>Turn left</li>
+			<li>Travel 59km</li>
+			<li>
+				<ol id="inlist">
+					<li>observe the first blue house</li>
+					<li>observe the big baobab tree after that house</li>
+					<li>observe also the black gate</li>
+				</ol>
+			</li>
+			<li>Turn right at the cross road</li>
+			<li>Stop at the first house</li>
+			<li>You have arrived</li>
+		</ol>
+	</div>s
+
+</body>
+</html>

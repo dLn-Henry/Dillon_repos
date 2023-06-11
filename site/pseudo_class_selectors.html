@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>Pseudo_class Selectors</title>
+	<style type="text/css">
+		header li{
+			list-style: none;			
+			}
+		header a:link, a:visited{
+			color: black;
+			text-decoration: none;
+			border: 2px solid blue;
+			background-color: green;
+			display: block;
+			width: 200px;
+			margin-bottom: 2px;
+			text-align: center;
+		}
+		header a:active, a:hover{
+			background-color: red;
+			color: white;
+		}
+
+		header li:nth-child(3){
+			font-size: 24px;
+		}
+
+		section > div:nth-child(odd)
+		{
+			background-color: gray;
+		}
+
+		section > div:nth-child(4):hover{
+			background-color: red;
+			color: white;
+		}
+
+
+
+
+	</style>
+</head>
+<body>
+	<h1>Pseudo-class Selectors</h1>
+	<header>
+		<ul>
+			<li><a href="/">Home</a></li>
+			<li><a href="C:\Users\`~d L n\Coursera_test\sites\images.html">About Us</a></li>
+			<li><a href="C:\Users\`~d L n\Coursera_test\sites\list.html">Cart</a></li>
+			
+		</ul>
+		
+	</header>
+	<section>
+		<div>DIV 1</div>
+		<div>DIV 2</div>
+		<div>DIV 3</div>
+		<div>DIV 4</div>
+		<div>DIV 5</div>
+		<div>DIV 6</div>
+		<div>DIV 7</div>
+		<div>DIV 8</div>
+		<div>DIV 9</div>
+		<div>DIV 10</div>
+		<div>DIV 11</div>
+		<div>DIV 12</div>
+		<div>DIV 13</div>
+		<div>DIV 14</div>
+		<div>DIV 15</div>
+		<div>DIV 16</div>
+	</section>
+	
+
+</body>
+</html>

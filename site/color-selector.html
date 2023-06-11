@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>color changer</title>
+</head>
+<body>
+	<button id="red">R</button>
+	<button id="green">G</button>
+	<button id="blue">B</button>
+
+	<script type="text/javascript">
+		let body = document.querySelector('body');
+
+		function do_red()
+		{
+			body.style.backgroundColor = 'red';
+		}
+		function do_blue()
+		{
+			body.style.backgroundColor = 'blue';
+		}
+		function do_green()
+		{
+			body.style.backgroundColor = 'green';
+		}
+
+		document.querySelector('#red').addEventListener('click', do_red);
+		document.querySelector('#blue').addEventListener('click', do_blue);
+		document.querySelector('#green').addEventListener('click', do_green);
+
+	</script>
+
+</body>
+</html>
